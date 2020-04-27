@@ -61,17 +61,5 @@ var Validator = function() {
   };
 };
 
-module.exports = Validator;
-
-// // 小彭使用策略模式进行操作
-// var compose1 = function() {
-//   var validator = new Validator();
-//   const data1 = {
-//     role: 'juejin',
-//     grade: 3
-//   };
-//   validator.add(data1.role, 'checkRole');
-//   validator.add(data1.grade, 'checkGrade');
-//   const result = validator.check();
-//   return result;
-// };
+// module.exports = Validator;
+export default Validator;

@@ -6,10 +6,11 @@
  * @LastEditTime: 2020-04-27
  */
 
-const strategy = require("../../src/designMode/strategy");
+// const strategy = require("../../src/designMode/strategy");
+import strategy from '../../src/designMode/strategy';
 
 describe("test strategy feature", () => {
-    test("enjoy the cake", () => {
+    test("enjoy the strategy", () => {
         const validator = new strategy();
         const data1 = {
           role: 'juejin',
