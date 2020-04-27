@@ -1,5 +1,8 @@
 /*
  * @Description: 策略模式
+  1. 各判断条件下的策略相互独立且可复用
+  2. 策略内部逻辑相对复杂
+  3. 策略需要灵活组合
  * @Author: mengbin.li
  * @Date: 2020-04-27
  * @LastEditors: mengbin.li
