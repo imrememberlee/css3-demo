@@ -19,5 +19,17 @@ describe("test strategy feature", () => {
         validator.add(data1.grade, 'checkGrade');
         const result = validator.check();
         expect(result).toBe(true);
+
+        const validator2 = new strategy();
+        const data2 = {
+          role: 'juejin',
+          job: 'BE'
+        };
+        validator2.add(data2.role, 'checkRole');
+        validator2.add(data2.job, 'checkJob');
+
+        const result2 = validator2.check();
+        expect(result2).toBe(true);
+
     })
 });

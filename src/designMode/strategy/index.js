@@ -24,7 +24,7 @@ var strategies = {
     return false;
   },
   checkJob: function(value) {
-    if (jobList.indexOf(value) > 1) {
+    if (jobList.indexOf(value) > 0) {
       return true;
     }
     return false;
